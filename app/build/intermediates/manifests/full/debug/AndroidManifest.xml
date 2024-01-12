@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.panji_pc.teskepribadian"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="27" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/logofix"
+        android:label="Test Kepribadian"
+        android:roundIcon="@mipmap/logofix"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.panji_pc.teskepribadian.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.panji_pc.teskepribadian.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.panji_pc.teskepribadian.KepribadianActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.panji_pc.teskepribadian.PetunjukActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.panji_pc.teskepribadian.HasilActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.panji_pc.teskepribadian.MBTIActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.panji_pc.teskepribadian.TentangActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.panji_pc.teskepribadian.DetailActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>
